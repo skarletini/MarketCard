@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+	 height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<g id="Blackground" display="none">
+	<rect x="-1242" y="-732.5" display="inline" width="2444" height="1760"/>
+</g>
+<g id="Layer_1">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#EEEEEE" d="M15,0c8.3,0,15,6.7,15,15s-6.7,15-15,15C6.7,30,0,23.3,0,15
+		S6.7,0,15,0z"/>
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#DDDDDD" d="M14,16l10.5,10.5c0.7-0.6,1.4-1.3,2-2L16,14L14,16z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#DDDDDD" d="M21.5,28.5c0.9-0.4,1.7-0.9,2.5-1.5l-8-8l-2,2L21.5,28.5z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#DDDDDD" d="M28.5,21.5L16,9l-2,2l13,13C27.6,23.2,28.1,22.4,28.5,21.5z"/>
+	</g>
+	<path fill="#333333" d="M14,21h2v-2h-2V21L14,21z M14,16h2v-2h-2V16L14,16z M14,9v2h2V9H14L14,9z"/>
+</g>
+</svg>

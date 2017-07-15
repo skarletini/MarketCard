@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+	 height="65px" viewBox="0 0 50 65" enable-background="new 0 0 50 65" xml:space="preserve">
+<g id="Blackground" display="none">
+	<rect x="-1198" y="-982.5" display="inline" width="2444" height="1760"/>
+</g>
+<g id="Layer_1">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#61C1F6" d="M25,1c13.8,0,25,11.2,25,25c0,8.2,0,39,0,39H0c0,0,0-26.9,0-39
+		C0,12.2,11.2,1,25,1z"/>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#027FD4" points="16.6,38.9 42.7,65 50,65 50,42.7 33.4,26.1 16.6,26.1 	
+		"/>
+	<path fill="#FFFFFF" d="M32,25.5H18c-1.1,0-2,0.9-2,2v10c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2v-10C34,26.4,33.1,25.5,32,25.5
+		L32,25.5z M32,37.5H18v-5h14V37.5L32,37.5z M32,29.5H18v-2h14V29.5L32,29.5z"/>
+</g>
+</svg>

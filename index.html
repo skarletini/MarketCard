@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- JAVASCRIPT to clear search text when the field is clicked -->
+<script type="text/javascript">
+window.onload = function(){ 
+	//Get submit button
+	var submitbutton = document.getElementById("tfq");
+	//Add listener to submit button
+	if(submitbutton.addEventListener){
+		submitbutton.addEventListener("click", function() {
+			if (submitbutton.value == 'Search our website'){
+				submitbutton.value = '';
+			}
+		});
+	}
+}
+</script>
+
+<style>
+p{ color:#FFF;
+}
+
+.imgBox { width: 100px; height: 100px; 
+background: url(Icons/Offers.svg) no-repeat;
+ }
+ 
+.imgBox:hover { 
+-moz-box-shadow: 0 0 10px #ccc; 
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc; 
+background: url(Icons/Offers-selected.svg) no-repeat;
+}
+
+
+<!-- CSS styles for standard search box with placeholder text-->
+
+	#tfheader{
+		background-color:#c3dfef;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput4{
+		margin: 0;
+		padding: 6px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 50px 50px;
+		border-bottom-left-radius: 50px 50px;	
+	}
+	.tfbutton4 {
+		margin: 0;
+		padding: 0;
+		width:30px;
+		height:30px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		border-top-right-radius: 100px 100px;
+		border-bottom-right-radius: 100px 100px;
+		background: #39F url('Icons/MagnifyingGlass_white.svg');
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton4::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+.tfbutton41 {		
+        margin: 0;
+		padding: 0;
+		width:30px;
+		height:30px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 0px #0076a3; border-right:0px;
+		border-top-right-radius: 100px 100px;
+		border-bottom-right-radius: 100px 100px;
+		background: blue url('Icons/MagnifyingGlass_white.svg');
+}
+.tftextinput41 {		
+        margin: 0;
+		padding: 6px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 50px 50px;
+		border-bottom-left-radius: 50px 50px;	
+}
+   
+</style>
+<!-- PopuP modal -->
+    <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp() {
+            popUpObj = window.open("popupex.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+       <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp1() {
+            popUpObj = window.open("popupex1.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+           <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp2() {
+            popUpObj = window.open("popupex2.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+               <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp3() {
+            popUpObj = window.open("popupex3.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+                   <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp4() {
+            popUpObj = window.open("popupex4.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+                   <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp5() {
+            popUpObj = window.open("popupex5.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+   
+      <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp7() {
+            popUpObj = window.open("popupex7.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+   
+      <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp9() {
+            popUpObj = window.open("popupex9.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+      <script type="text/javascript">
+        var popUpObj;
+        function showModalPopUp10() {
+            popUpObj = window.open("popupex10.html",
+    "ModalPopUp",
+    "toolbar=no," +
+    "scrollbars=no," +
+    "location=no," +
+    "statusbar=no," +
+    "menubar=no," +
+    "resizable=0," +
+    "width=500," +
+    "height=500," +
+    "left = 490," +
+    "top=300"
+    );
+            popUpObj.focus();
+            LoadModalDiv();
+        }
+      
+    </script>
+    
+    <script type="text/javascript">
+        function LoadModalDiv() {
+            var bcgDiv = document.getElementById("divBackground");
+            bcgDiv.style.display = "block";
+        }
+    </script>
+    <script type="text/javascript">
+        function HideModalDiv() {
+            var bcgDiv = document.getElementById("divBackground");
+            bcgDiv.style.display = "none";
+        }
+        function OnUnload() {
+            if (false == popUpObj.closed) {
+                popUpObj.close();
+            }
+        }
+        window.onunload = OnUnload;
+    </script>
+</head>
+
+<body>
+ <!-- Black section -->
+<table bgcolor=#000000 style="width:100%">
+<tr>
+<td width="5%">
+<div style="color:#ffffFF">
+      <a href="#"><img src="Icons/Menu.svg" onMouseOver="this.src='Icons/Menu-selected.svg'" onMouseOut="this.src='Icons/Menu.svg'" /></a>
+      </div>
+</td>
+<td width="23%" align="left">
+<p>Market</p>
+</td>
+<td width="69%">
+<div align="center">
+<img src="images/person.jpg" align="right"></img>
+</div>
+<p align="right">Username</p>
+</td>
+<td width="3%"><img src="Icons/Settings.svg" align="right" onMouseOver="this.src='Icons/Settings-selected.svg'" onMouseOut="this.src='Icons/Settings.svg'" />
+
+</td>
+  </tr>
+</table>
+ <!-- Blue section -->
+<table bgcolor="0099FF" style="width:100%">
+<tr>
+<td width="2%">
+</td>
+<td width="2%">
+</td>
+       <td>
+          <div align="left">
+           <a href="#"><img src="Icons/Memberships.svg" 
+           onmouseover="this.src='Icons/Memberships-selected.svg'" onMouseOut="this.src='Icons/Memberships.svg'" /></a>
+      
+         <a href="#"><img src="Icons/Offers.svg" 
+          onmouseover="this.src='Icons/Offers-selected.svg'" onMouseOut="this.src='Icons/Offers.svg'" /></a>
+    
+     <a href="#"><img src="Icons/PaymentMethods.svg" onMouseOver="this.src='Icons/PaymentMethods-selected.svg'" onMouseOut="this.src='Icons/PaymentMethods.svg'"/></a></div>
+    </td>
+      <td width="50%">
+    <!-- HTML for SEARCH BAR -->
+      <div id="tfheader" align="right">
+        <form id="tfnewsearch" method="get" action="https://www.google.gr/?gfe_rd=cr&ei=FgXAVMq4IoiAiAbO0IDwDw&gws_rd=ssl">
+          <input type="text" id="tfq" class="tftextinput41" name="q" size="21" maxlength="120" placehol+der="Search something">
+          <input type="submit" value=" " class="tfbutton41">
+        </form>
+        
+      </div>
+    </td>               
+          <td>
+			<a href="#"><img src="Icons/LiveSearch.svg" 
+           onmouseover="this.src='Icons/LiveSearch-selected.svg'" onMouseOut="this.src='Icons/LiveSearch.svg'" /></a>
+        </td>        
+ </tr>
+</table>
+
+<!-- White section -->
+<table width="105%" align="right" bgcolor="#ffffff" class="fixed" style="width:100%">
+  <tr>
+    <div align="right"> <img src="Icons/Plus_black.svg"><img></div>
+  </tr>
+  <tr>
+    <td><a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/tapeo-tasting.jpg" height="227" align="middle" onClick="showModalPopUp()" onMouseOver="this.src='images/tapeo-tasting-selected.jpg'" onMouseOut="this.src='images/tapeo-tasting.jpg'" /></p></td>
+    <td><a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/romantic-getaway.jpg" height="225" align="middle" onClick="showModalPopUp1()" onMouseOver="this.src='images/romantic-getaway-selected.jpg'" onMouseOut="this.src='images/romantic-getaway.jpg'" /></p></td>
+    <td> <a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/padel monthly pack.jpg" height="225" align="middle" onClick="showModalPopUp2()" onMouseOver="this.src='images/padel monthly pack-selected.jpg'" onMouseOut="this.src='images/padel monthly pack.jpg'" /></p></td>
+    <td> <a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/2x1 drinks.jpg" width="139" height="223" onClick="showModalPopUp3()"  onMouseOver="this.src='images/2x1 drinks-selected.jpg'" onMouseOut="this.src='images/2x1 drinks.jpg'" /></p></td>
+    <td><a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/vip access.jpg" width="142" height="220" onClick="showModalPopUp4()"  onMouseOver="this.src='images/vip access-selected.jpg'" onMouseOut="this.src='images/vip access.jpg'" /></p></td>
+  </tr>
+  <tr>
+    <td><a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/meal for two.jpg" onClick="showModalPopUp7()"  onMouseOver="this.src='images/meal for two-selected.jpg'" onMouseOut="this.src='images/meal for two.jpg'"/></p></td>
+    <td><a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/pool acrobatics.jpg" onClick="showModalPopUp5()"  onMouseOver="this.src='images/pool acrobatics-selected.jpg'" onMouseOut="this.src='images/pool acrobatics.jpg'" /></p></td>
+    <td> <a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/romantic-getaway.jpg" onClick="showModalPopUp9()"  onMouseOver="this.src='images/romantic-getaway-selected.jpg'" onMouseOut="this.src='images/romantic-getaway.jpg'" /></p></td>
+    <td><a href="#"><img src="Icons/Options.svg" align="right" onMouseDown="this.src='images/market card.jpg'"
+           onMouseOver="this.src='Icons/Options-selected.svg'" onMouseOut="this.src='Icons/Options.svg'" /></a>
+      <p><img src="images/romantic-getaway.jpg" onClick="showModalPopUp10()"  onMouseOver="this.src='images/romantic-getaway-selected.jpg'" onMouseOut="this.src='images/romantic-getaway.jpg'" /></p></td>
+  </tr>
+</table>
+</body>
+</html>
